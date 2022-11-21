@@ -1,0 +1,48 @@
+header .container {
+    height: 50px;
+    color: #1a232f;
+    font-size: 13px;
+}
+
+header .border-bottom {
+    border-color: #d7eaff !important;
+}
+
+.discord-header-button {
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+#mainPage .main-img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: auto !important;
+    width: auto !important;
+    max-width: 50%;
+    max-height: 95%;
+    z-index: 46;
+}
+
+#mainPage .col-image-wrapper {
+    width: fit-content;
+    height: 100%;
+}
+
+#mainPage .row .col-image-wrapper {
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.2;
+}
+
+#mainPage .image-wrapper {
+    height: 360px;
+}
+
+#mainPage .col-image-wrapper figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
