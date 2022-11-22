@@ -11,3 +11,18 @@
 .z-index-1 {
     z-index: 1;
 }
+
+.btn {
+    border-radius: 6px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 12px 20px;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #3597ff !important;
+    border-color: #3597ff !important;
+}
