@@ -26,3 +26,7 @@
     background-color: #3597ff !important;
     border-color: #3597ff !important;
 }
+
+.stay-open-mobile {
+    display: block !important;
+}
