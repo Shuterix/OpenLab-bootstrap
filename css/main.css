@@ -10,6 +10,57 @@ header .border-bottom {
     border-color: #d7eaff !important;
 }
 
+/* navbar */
+
+nav.navbar.main-navbar {
+    height: 80px !important;
+}
+
+nav.navbar.main-navbar {
+    height: 57px;
+}
+
+nav.navbar.main-navbar .dropdown-toggle:after {
+    border: solid #1a232f;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    padding: 2px;
+} 
+
+nav .nav-link {
+    color: #1a232f !important;
+}
+
+nav .nav-item {
+    color: #1a232f !important;
+}
+
+nav .dropdown-item {
+    color: #1a232f !important;
+}
+
+.navbar-nav {
+    font-size: 14px !important;
+} 
+
+ nav.navbar.main-navbar .navbar-toggler {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+ nav.navbar.main-navbar .navbar-toggler-icon {
+    background-image: url(../assets/hamburger.svg);
+    width: 20px;
+    height: 20px;
+}
+
+nav.navbar.main-navbar .dropdown-menu {
+    top: 100%;
+    margin-top: -1px;
+    border-radius: 6px;
+}
+
 /* main-page */
 
 .discord-header-button {
@@ -51,48 +102,88 @@ header .border-bottom {
     align-items: end;
 }
 
-/* navbar */
-
-/* nav.navbar.main-navbar {
-    height: 80px;
+#openlab-o {
+    max-width: 482px;
+    max-height: 482px;
+    width: auto;
+    height: auto;
+    right: -241px;
+    top: 310px;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+    display: none;
 }
 
-nav.navbar.main-navbar {
-    height: 57px;
-} */
+/* vision */
 
-nav.navbar.main-navbar .dropdown-toggle:after {
-    border: solid #1a232f;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-    padding: 2px;
-} 
-
-nav .nav-link {
-    color: black !important;
+#vision .item .count {
+    font-size: 90px;
 }
 
-nav .nav-item {
-    color: black !important;
+#vision .item .type {
+    font-size: 18px;
 }
 
-nav .dropdown-item {
-    color: black !important;
+#vision .item {
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
 }
 
-.navbar-nav {
-    font-size: 14px !important;
-    font-weight: 500;
-} 
-
- nav.navbar.main-navbar .navbar-toggler {
-    border: none;
-    outline: 0;
-    box-shadow: none;
+#vision .item:nth-child(1) {
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
 }
 
- nav.navbar.main-navbar .navbar-toggler-icon {
-    background-image: url(../assets/hamburger.svg);
-    width: 20px;
-    height: 20px;
+#vision .item:nth-child(2) {
+    color: #5cc19a;
+    background-color: rgba(156, 238, 204, 0.4);
+}
+
+#vision .item:nth-child(3) {
+    color: #dbca68;
+    background-color: rgba(238, 226, 156, 0.4);
+}
+
+#vision .item:nth-child(4) {
+    color: #b95e73;
+    background-color: rgba(238, 156, 156, 0.4);
+}
+
+/* labs */
+
+#labs .card .card-text {
+    margin-bottom: 10px;
+}
+
+#labs .card img {
+    bottom: 30px;
+}
+
+#labs .card img:last-of-type {
+    display: none;
+}
+
+/* schools */
+
+#schools .shape img {
+    width: 436px;
+}
+
+#schools .shape {
+    width: 213px;
+    right: 0;
+    bottom: -260px;
+    z-index: 0;
+}
+
+/* join */
+
+#join .indicators .card img {
+    bottom: 30px;
+}
+
+#join .indicators .card img:last-of-type {
+    display: none;
 }

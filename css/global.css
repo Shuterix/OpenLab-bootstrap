@@ -30,3 +30,19 @@
 .stay-open-mobile {
     display: block !important;
 }
+
+.text-gray {
+    color: #566b8d !important;
+}
+
+.fs-7 {
+    font-size: 0.875rem;
+}
+
+.fs-6 {
+    font-size: 1.125rem !important;
+}
+
+.text-primary {
+    color: #3597ff !important;
+}
