@@ -102,17 +102,11 @@ nav.navbar.main-navbar .dropdown-menu {
     align-items: end;
 }
 
-#openlab-o {
-    max-width: 482px;
-    max-height: 482px;
-    width: auto;
-    height: auto;
-    right: -241px;
-    top: 310px;
-    z-index: 1;
-    overflow: hidden;
-    position: absolute;
-    display: none;
+#mainPage .shape {
+    width: 241px;
+    right: 0;
+    bottom: -240px;
+    z-index: 0;
 }
 
 /* vision */
