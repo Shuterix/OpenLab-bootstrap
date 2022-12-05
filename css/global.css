@@ -50,3 +50,7 @@
 .width-200 {
     width: 200px !important;
 }
+
+.rounded {
+    border-radius: 0.40rem !important;  
+}
