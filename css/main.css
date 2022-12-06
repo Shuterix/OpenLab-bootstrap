@@ -13,7 +13,7 @@ header .border-bottom {
 /* navbar */
 
 nav.navbar.main-navbar {
-    height: 80px !important;
+    height: 80px;
 }
 
 nav.navbar.main-navbar {
