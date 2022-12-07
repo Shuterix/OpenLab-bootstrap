@@ -22,6 +22,11 @@
     white-space: nowrap;
 }
 
+.btn-lg {
+    padding: 18px 50px;
+    font-weight: bold;
+}
+
 .btn-primary {
     background-color: #3597ff !important;
     border-color: #3597ff !important;

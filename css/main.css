@@ -210,3 +210,10 @@ nav.navbar.main-navbar .dropdown-menu {
 #special .border-bottom {
     border-color: #d7eaff !important;
 }
+
+/* newsletter */
+
+.bg-newsletter {
+    background-color: #d7eaff !important;
+}
+
