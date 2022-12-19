@@ -692,7 +692,7 @@
             </div>
         </div>
     </section>
-    <section class="py-4 py-md-5">
+    <section id="newsletter" class="py-4 py-md-5">
         <div class="container bg-newsletter rounded px-3 px-lg-5 mb-5 py-5 py-md-3 p-lg-5">
             <div class="row align-items-center">
                 <div class="col-md ps-xl-5 mb-3 mb-md-0">
@@ -706,10 +706,13 @@
                 </div>
                 <div class="col-md">
                     <div role="form">
-                        <form method="post" action="">
-                            <div class="newsletter-input-wrapper position-relative">
-                                <input  type="hidden">
-                            </div>
+                        <form action="">
+                            <span class="position-relative">
+                                <input placeholder="Sem napíšte svoj e-mail" class="newsletter-input-wrapper" name="your-email" type="email">
+                            </span>
+                            <a class="newsletter-submit-wrapper" href="">
+                                <img src="assets/newsletter-arrow.PNG">
+                            </a>
                         </form>
                     </div>
                 </div>

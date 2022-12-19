@@ -12,13 +12,11 @@ header .border-bottom {
 
 /* navbar */
 
-nav.navbar.main-navbar {
-    height: 80px;
-}
-
-nav.navbar.main-navbar {
-    height: 57px;
-}
+@media (min-width: 1200px){
+    nav.navbar.main-navbar {
+        height: 80px;
+    }
+    }
 
 nav.navbar.main-navbar .dropdown-toggle:after {
     border: solid #1a232f;
@@ -215,5 +213,24 @@ nav.navbar.main-navbar .dropdown-menu {
 
 .bg-newsletter {
     background-color: #d7eaff !important;
+}
+
+#newsletter .newsletter-input-wrapper {
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 60px;
+    border-radius: 6px;
+    border: none !important;
+}
+
+#newsletter .newslatter-input-wrapper .newsletter-submit-wrapper input {
+    position: absolute;
+    top: 20px;
+    right: 11px;
+    transform: translateY(-50%);
+    width: 30px !important;
+    height: 25px;
+    opacity: 0;
 }
 
