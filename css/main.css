@@ -224,13 +224,28 @@ nav.navbar.main-navbar .dropdown-menu {
     border: none !important;
 }
 
-#newsletter .newslatter-input-wrapper .newsletter-submit-wrapper input {
+#newsletter .newsletter-submit-wrapper {
     position: absolute;
     top: 20px;
     right: 11px;
     transform: translateY(-50%);
     width: 30px !important;
     height: 25px;
-    opacity: 0;
+    opacity: 10;
+}
+
+/* footer */
+
+footer * {
+    font-size: 13px;
+}
+
+footer .socials {
+    justify-content: flex-end;
+}
+
+footer .rec {
+    left: 100%;
+    top: calc(100% - 30px);
 }
 
